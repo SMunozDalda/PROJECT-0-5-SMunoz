@@ -14,7 +14,7 @@ def save_vehicles(vehicles):
 
 def print_menu():
     print("********************************")
-    print("AutoCountry Vehicle Finder v0.4")
+    print("AutoCountry Vehicle Finder v0.5")
     print("********************************")
     print("Please Enter the following number below from the following menu:\n")
     print("1. PRINT all Authorized Vehicles")
@@ -77,7 +77,8 @@ def main():
         elif user_input == "4":
             delete_vehicle(vehicles)
         elif user_input == "5":
-            print("\nThank you for using the AutoCountry Vehicle Finder, good-bye!")
+            print("\nThank you for using the AutoCountry Vehicle Finder, good-bye!\n(Press Enter to exit)")
+            input("\n")
             break
         else:
             print("\nInvalid input. Please enter a number between 1 and 5.\n")
